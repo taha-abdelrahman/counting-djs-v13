@@ -116,7 +116,7 @@ author: message.author.id
         },
         { new: true });
 } else {
-  message.delete()
+ message.delete()
 }
 }
 })
