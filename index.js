@@ -16,8 +16,8 @@ const {
 } = require("discord.js");
 const Discord = require("discord.js");
 const client = new Client({ intents: ["GUILDS", "GUILD_MEMBERS", "GUILD_INTEGRATIONS", "GUILD_MESSAGES"], partials: ["REACTION"] })
-require("./connect.js")(client);
-var db = require("./database.js")
+require("./Database/connect.js")(client);
+var db = require("./Database/database.js")
 const devs = [
   "681398021824839700", // ايديك
   "another_id", // ايدي اي شخص تبيه يتحكم بالبوت
